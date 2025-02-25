@@ -1,0 +1,75 @@
+[
+  {
+    "name": "jano",
+    "level": "Novice",
+    "Silver": 16,
+    "current_HP": 6,
+    "max_HP": 6,
+    "stats": {
+      "Strength": 11,
+      "Dexterity": 12,
+      "Willpower": 14
+    },
+    "items": [
+      19,
+      2,
+      9
+    ]
+  },
+  {
+    "name": "geoffo",
+    "level": "Novice",
+    "Silver": 17,
+    "current_HP": 4,
+    "max_HP": 4,
+    "stats": {
+      "Strength": 14,
+      "Dexterity": 17,
+      "Willpower": 18
+    },
+    "items": [
+      8,
+      67,
+      66,
+      36,
+      5
+    ]
+  },
+  {
+    "name": "moon",
+    "level": "Novice",
+    "Silver": 7,
+    "current_HP": 3,
+    "max_HP": 3,
+    "stats": {
+      "Strength": 5,
+      "Dexterity": 14,
+      "Willpower": 9
+    },
+    "items": [
+      15,
+      57,
+      51,
+      65
+    ]
+  },
+  {
+    "name": "Jimothy",
+    "level": "Novice",
+    "Silver": 26,
+    "current_HP": 2,
+    "max_HP": 4,
+    "stats": {
+      "Strength": 7,
+      "Dexterity": 11,
+      "Willpower": 16
+    },
+    "items": [
+      20,
+      41,
+      23,
+      51,
+      38
+    ]
+  }
+]

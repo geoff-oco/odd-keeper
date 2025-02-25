@@ -1,0 +1,510 @@
+{
+  "weapons": [
+    {
+      "ID": 1,
+      "Name": "Unarmed attack",
+      "Damage": "d4",
+      "Space": 1,
+      "Effect": "1d4 damage",
+      "Price": "N/A"
+    },
+    {
+      "ID": 2,
+      "Name": "Crude Weapon",
+      "Damage": "d6",
+      "Space": 2,
+      "Effect": "1d6 damage, easily breakable",
+      "Price": "1s"
+    },
+    {
+      "ID": 3,
+      "Name": "Hand Weapon",
+      "Damage": "d6",
+      "Space": 1,
+      "Effect": "1d6 damage",
+      "Price": "2s"
+    },
+    {
+      "ID": 4,
+      "Name": "Field Weapon",
+      "Damage": "d8",
+      "Space": 2,
+      "Effect": "1d8 damage, easy to maintain",
+      "Price": "10s"
+    },
+    {
+      "ID": 5,
+      "Name": "Noble Weapon",
+      "Damage": "d8",
+      "Space": 1,
+      "Effect": "1d8 damage, very impressive",
+      "Price": "30s"
+    },
+    {
+      "ID": 6,
+      "Name": "Heavy Gun",
+      "Damage": "d10",
+      "Space": 2,
+      "Effect": "1d10 damage ranged",
+      "Price": "1G"
+    }
+  ],
+  "armour": [
+    {
+      "ID": 7,
+      "Name": "Modern Armour",
+      "Armour": 1,
+      "Space": 1,
+      "Effect": "1 Armour, very stylish",
+      "Price": "50s"
+    },
+    {
+      "ID": 8,
+      "Name": "Crude Armour",
+      "Armour": 1,
+      "Space": 2,
+      "Effect": "1 armour, easily breakable",
+      "Price": "25s"
+    },
+    {
+      "ID": 9,
+      "Name": "Shield",
+      "Armour": "1",
+      "Space": 2,
+      "Effect": "1 armour, held in a hand",
+      "Price": "10s"
+    }
+  ],
+  "equipment": [
+    {
+      "ID": 10,
+      "Name": "Flashbang",
+      "Description": "Momentarily blinds anyone that fails a dex Save.",
+      "Effect": "Blindness",
+      "Price": "10s"
+    },
+    {
+      "ID": 11,
+      "Name": "Fire Oil",
+      "Description": "Sets an area alight.",
+      "Effect": "All inside take d6 Damage each round.",
+      "Price": "10s"
+    },
+    {
+      "ID": 12,
+      "Name": "Bomb",
+      "Description": "Creates a powerful explosion.",
+      "Effect": "d10 Blast.",
+      "Price": "20s"
+    },
+    {
+      "ID": 13,
+      "Name": "Rocket",
+      "Description": "Causes d10 damage and a colorful explosion.",
+      "Effect": "d10 Damage, visual effect.",
+      "Price": "20s"
+    },
+    {
+      "ID": 14,
+      "Name": "Smoke-bomb",
+      "Description": "Fills a room with smoke when lit.",
+      "Effect": "Impairs visibility.",
+      "Price": "10s"
+    },
+    {
+      "ID": 15,
+      "Name": "Poison",
+      "Description": "Lose d20 STR if consumed.",
+      "Effect": "STR damage.",
+      "Price": "20s"
+    },
+    {
+      "ID": 16,
+      "Name": "Ether",
+      "Description": "Inhaled, STR Save or pass out for an hour.",
+      "Effect": "Unconsciousness.",
+      "Price": "10s"
+    },
+    {
+      "ID": 17,
+      "Name": "Acid",
+      "Description": "Burns through most materials.",
+      "Effect": "d6 Damage, material corrosion.",
+      "Price": "10s"
+    },
+    {
+      "ID": 18,
+      "Name": "Antitoxin",
+      "Description": "Neutralises most toxins.",
+      "Effect": "Cures poison.",
+      "Price": "10s"
+    },
+    {
+      "ID": 19,
+      "Name": "Tools",
+      "Description": "A variety of tools everything from Crowbar, saw, glue, magnifying glass,manacles, animal trap, lockpicks, mirror, writing set, fishing pole, shovel, grappling hook, collapsible pole, 20ft rope, spikes etc.",
+      "Effect": "Referee discretion on what its useful for.",
+      "Price": "1s"
+    },
+    {
+      "ID": 20,
+      "Name": "Luxuries",
+      "Description": "Anything luxury from clockwork items, elaborate clothes, thermometer, jewelery, ornaments, spyglass, etc.",
+      "Effect": "Referee discretion on what its useful for.",
+      "Price": "1G"
+    },
+    {
+      "ID": 21,
+      "Name": "Mule or Llama",
+      "Description": "A sturdy four legged beast of burden",
+      "Effect": "Allows you to carry more or ride on it for comfort.",
+      "Price": "5s"
+    },
+    {
+      "ID": 22,
+      "Name": "Horse",
+      "Description": "A noble companion, steed and friend",
+      "Effect": "Allows you to carry more or ride on it for comfort.",
+      "Price": "1G"
+    },
+    {
+      "ID": 23,
+      "Name": "Mutt",
+      "Description": "Nothing better than a faithful four legged friend that is always happy to see you.",
+      "Effect": "STR 10, d6 bite.",
+      "Price": "5s"
+    },
+    {
+      "ID": 24,
+      "Name": "Hound",
+      "Description": "The noblest of their kind, you wonder who is really the master here.....",
+      "Effect": "STR 2d6, bite d6",
+      "Price": "50s"
+    },
+    {
+      "ID": 25,
+      "Name": "Parrot or Raven",
+      "Description": "A feathered friend for your shoulder, comes in dark and ominous or overtly colourful",
+      "Effect": "STR d6, d4 claws",
+      "Price": "10s"
+    },
+    {
+      "ID": 26,
+      "Name": "Kestrel or Hawk",
+      "Description": "A feathered predator to keep you warm in companionship",
+      "Effect": "STR d8, d6 claws.",
+      "Price": "50s"
+    }
+  ],
+  "hirelings": [
+    {
+      "ID": 27,
+      "Name": "Lighter Boy",
+      "Features": "Lantern and club",
+      "Stats": "STR 2d6 DEX 10 WIS 10 HP 6 ",
+      "Price": "1s"
+    },
+    {
+      "ID": 28,
+      "Name": "Mercenary",
+      "Features": "Musket and sword",
+      "Stats": "STR 10 DEX 10 WIS 10 HP 2d6 ",
+      "Price": "5s"
+    },
+    {
+      "ID": 29,
+      "Name": "Expert",
+      "Features": "Pistol and expertise in a specific area they tell you when you hire them",
+      "Stats": "STR 10 DEX 10 WIS 10 HP 6 ",
+      "Price": "10s"
+    }
+  ],
+  "minorArcana": [
+    {
+      "ID": 30,
+      "Name": "Gatekeeper's Sigil",
+      "Effect": "Create a gate between two flat surfaces that you can see. The gates close if you pass through or break line of sight."
+    },
+    {
+      "ID": 31,
+      "Name": "Pierced Heart",
+      "Effect": "State an object you desire. The heart indicates its direction and vague distance."
+    },
+    {
+      "ID": 32,
+      "Name": "Pale Flame",
+      "Effect": "An object you touch glows with white light. Contact with the glowing object causes a chilling pain. The effect wears off when the Arcanum is used again."
+    },
+    {
+      "ID": 33,
+      "Name": "Soul Chain",
+      "Effect": "Target must pass a DEX Save to avoid your touch, or they lose d6 WIL and you get a glimpse of their current desire."
+    },
+    {
+      "ID": 34,
+      "Name": "Gavel of the Unbreakable Seal",
+      "Effect": "One door, window, etc. is sealed until you open it."
+    },
+    {
+      "ID": 35,
+      "Name": "Foul Censer",
+      "Effect": "Green smoke surrounds you and everyone within 20ft. Missiles cannot pass through the smoke."
+    },
+    {
+      "ID": 36,
+      "Name": "Bleeding Stave",
+      "Effect": "Spews blood-like oil onto a 10ft area. Anyone moving or standing on the oil must make a DEX Save to avoid falling and being unable to move on their turn. Disappears in a harmless flash if ignited."
+    },
+    {
+      "ID": 37,
+      "Name": "Pain Idol",
+      "Effect": "Roll a die of your choice. If the result is odd, you lose that much STR, if it�s even your target loses that much STR."
+    },
+    {
+      "ID": 38,
+      "Name": "Webbed Hands",
+      "Effect": "Climb sheer surfaces as if you were a spider."
+    },
+    {
+      "ID": 39,
+      "Name": "Sunblessed Bands",
+      "Effect": "Glow and hum lightly. Anybody attacking you suffers Damage equal to that they cause to you. If you attack a target yourself then the effect ends until you Rest."
+    },
+    {
+      "ID": 40,
+      "Name": "Flesh-Tome of Babble",
+      "Effect": "Speak in a strange sounding language. Every living thing is able to understand and reply in the same tongue if they wish."
+    },
+    {
+      "ID": 41,
+      "Name": "Tyrant�s Rod",
+      "Effect": "Order a target to drop, fall, flee, or halt unless they pass a WIL Save."
+    },
+    {
+      "ID": 42,
+      "Name": "Black Veil",
+      "Effect": "Target must pass a WIL Save or is blinded until you lift the curse or they Rest. Blinded individuals may require a DEX Save to carry out other actions that rely on sight, and their attacks are Impaired."
+    },
+    {
+      "ID": 43,
+      "Name": "Strands of Suffering",
+      "Effect": "Strands spread between two surfaces up to 20ft apart. Those within only move very slowly and painfully unless they pass a DEX Save."
+    },
+    {
+      "ID": 44,
+      "Name": "Heat Ray",
+      "Effect": "One metal object becomes too hot to touch. If it cannot be quickly dropped or removed the wielder suffers d8 Damage, ignoring armour."
+    },
+    {
+      "ID": 45,
+      "Name": "Miniaturisation Coil",
+      "Effect": "Touch an object to shrink it into a tiny miniature. Restore the object to original size at will. The original object can be up to your size, but living beings must be willing."
+    },
+    {
+      "ID": 46,
+      "Name": "Frozen Cloud",
+      "Effect": "Floats at your will. Anybody within takes d6 Damage and cannot move unless they pass a STR Save."
+    },
+    {
+      "ID": 47,
+      "Name": "Many Phase Key",
+      "Effect": "Phase through a wall or floor with any objects you are carrying."
+    },
+    {
+      "ID": 48,
+      "Name": "Skull Magnet",
+      "Effect": "You may attract or repel a single target that has a boney skull, unless they pass a WIL Save."
+    },
+    {
+      "ID": 49,
+      "Name": "Transreal Mirror",
+      "Effect": "A perfect duplicate of you is formed. It acts independently, and just like the original. It cannot interact physically with anything. The double lasts until dismissed or a new double is created."
+    },
+    {
+      "ID": 50,
+      "Name": "Gorger�s Mask",
+      "Effect": "The wearer can consume anything safely."
+    },
+    {
+      "ID": 51,
+      "Name": "Tomb Box",
+      "Effect": "Contains three tiny skeletons that obey whoever holds the box. They are too small to do any real damage, but are quite agile and clever."
+    },
+    {
+      "ID": 52,
+      "Name": "Howling Lantern",
+      "Effect": "Blowing into the lantern causes a roar that terrifies prey animals, but attracts predators."
+    },
+    {
+      "ID": 53,
+      "Name": "Rainbow Blade",
+      "Effect": "This sword (d6) can fire a beam of harmless light in any colour the wielder wishes."
+    },
+    {
+      "ID": 54,
+      "Name": "Hawk of Prosperity",
+      "Effect": "A mechanical bird (3hp, d6 claws) that will only help you to accumulate wealth. Requires a Shilling each day as food."
+    },
+    {
+      "ID": 55,
+      "Name": "Inquisitor�s Hood",
+      "Effect": "Speak a question with two possible answers. The target must pass a WIL Save or answer as honestly as they can. If they pass their Save you blurt out an inconvenient truth."
+    },
+    {
+      "ID": 56,
+      "Name": "Winter�s Sickle",
+      "Effect": "Anybody taking Damage from this Sickle (d6) is Deprived and feels cold to their bones until they spend at least an hour warming themselves by a fire or other heat source."
+    },
+    {
+      "ID": 57,
+      "Name": "Grief Cup",
+      "Effect": "Anybody drinking from this cup has upsetting visions showing the consequences of their past actions."
+    },
+    {
+      "ID": 58,
+      "Name": "Victory Globe",
+      "Effect": "Swear an oath aloud. The globe gently guides you in the direction that would help you achieve the oath, but if you fail to complete it before the end of the day it lashes your mind for d12 WIL loss."
+    },
+    {
+      "ID": 59,
+      "Name": "Moon Lens",
+      "Effect": "Look at two objects and ask a question. The lens highlights the one object that best answers the question. It cannot predict the future."
+    },
+    {
+      "ID": 60,
+      "Name": "Fool�s Coin",
+      "Effect": "Anybody that values money will crave this coin the first time they see it. The effect wears off after an hour."
+    },
+    {
+      "ID": 61,
+      "Name": "Chance Rose",
+      "Effect": "Crush this ceramic rose to change the odds of success for a single action to 50%. This cannot make the impossible possible. The rose reforms at the start of each day."
+    },
+    {
+      "ID": 62,
+      "Name": "Homing Stick",
+      "Effect": "A staff that can be called to return to you, flying by the best route possible."
+    },
+    {
+      "ID": 63,
+      "Name": "False Platter",
+      "Effect": "Anybody viewing this platter sees an illusion of luxury that they are craving right now."
+    },
+    {
+      "ID": 64,
+      "Name": "Gold Visor",
+      "Effect": "While wearing this you visualize a general sense of somebody�s honesty and sincerity while they speak."
+    },
+    {
+      "ID": 65,
+      "Name": "Infinity Icon",
+      "Effect": "You can stop time, but you can do nothing but observe and think during this time."
+    }
+  ],
+  "features": [
+    {
+      "ID": 66,
+      "Effect": "You can sense nearby unearthly beings."
+    },
+    {
+      "ID": 67,
+      "Effect": "You can sense nearby Arcana."
+    },
+    {
+      "ID": 68,
+      "Effect": "You have immunity to extreme heat and cold."
+    },
+    {
+      "ID": 69,
+      "Effect": "You can sense nearby unearthly beings."
+    },
+    {
+      "ID": 67,
+      "Effect": "You have a burnt face."
+    },
+    {
+      "ID": 68,
+      "Effect": "You have an artificial lung."
+    },
+    {
+      "ID": 69,
+      "Effect": "You have a prosthetic leg."
+    },
+    {
+      "ID": 70,
+      "Effect": "You have loud lungs."
+    },
+    {
+      "ID": 71,
+      "Effect": "You are mute."
+    },
+    {
+      "ID": 72,
+      "Effect": "You have one arm."
+    },
+    {
+      "ID": 73,
+      "Effect": "You are a fugitive."
+    },
+    {
+      "ID": 74,
+      "Effect": "You have telepathy if your target fails a WIL save."
+    },
+    {
+      "ID": 75,
+      "Effect": "Your dreams show your undiscovered surroundings"
+    },
+    {
+      "ID": 76,
+      "Effect": "You have an iron limb."
+    },
+    {
+      "ID": 77,
+      "Effect": "You have amutt with a telepathic link to you."
+    },
+    {
+      "ID": 78,
+      "Effect": "You never sleep."
+    },
+    {
+      "ID": 79,
+      "Effect": "You have darkvision."
+    },
+    {
+      "ID": 80,
+      "Effect": "You are toxin-immune."
+    },
+    {
+      "ID": 81,
+      "Effect": "You are slightly magnetic."
+    },
+    {
+      "ID": 82,
+      "Effect": "You have one eye."
+    },
+    {
+      "ID": 83,
+      "Effect": "You have a prosthetic hand."
+    },
+    {
+      "ID": 84,
+      "Effect": "You have a glowing eyes."
+    },
+    {
+      "ID": 85,
+      "Effect": "You have no nose or sense of scent or taste."
+    },
+    {
+      "ID": 86,
+      "Effect": "You have an ugly mutation."
+    },
+    {
+      "ID": 87,
+      "Effect": "You are illiterate."
+    },
+    {
+      "ID": 88,
+      "Effect": "You are disfigured."
+    }
+  ]
+}
